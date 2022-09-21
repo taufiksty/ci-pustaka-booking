@@ -35,8 +35,10 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->get('/my_name', 'Home::my_name');
+$routes->get('/', 'Home::myName');
+$routes->get('/Latihan1/{:segment}', 'Latihan1::$1');
+$routes->get('/Matakuliah', 'Matakuliah::index');
+
 
 /*
  * --------------------------------------------------------------------

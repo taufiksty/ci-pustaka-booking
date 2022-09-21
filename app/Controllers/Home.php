@@ -9,8 +9,8 @@ class Home extends BaseController
         return view('welcome_message');
     }
 
-    public function my_name()
+    public function myName()
     {
-        return view('my_name');
+        return view('myName');
     }
 }
